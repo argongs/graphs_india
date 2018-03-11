@@ -26,7 +26,7 @@ shinyUI(fluidPage(
       tabsetPanel(
         #tabPanel("Summary",icon = icon("list-alt"), uiOutput("summary")),
         tabPanel("World Standing",icon = icon("bar-chart-o"), uiOutput("f_text"),plotOutput("top10")),#,
-        tabPanel("Forests Cover",icon = icon("bar-chart-o"),plotOutput("forest"), plotOutput("compare"))
+        tabPanel("India's Forest Cover",icon = icon("bar-chart-o"),uiOutput("a_text"),plotOutput("forest"), uiOutput("b_text"),plotOutput("compare"))
         #tabPanel("Table",icon = icon("table"), uiOutput("atable"),uiOutput("ctable"))
       )
       

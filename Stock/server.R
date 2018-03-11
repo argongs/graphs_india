@@ -44,12 +44,32 @@ shinyServer(
     
   
     #This will generate the plot of forest covers
+    output$a_text = renderUI(
+      HTML(
+        "<br><br>India's forests into the following categories:<br>
+        <b>Forest Cover</b>: defined as all lands, more than one hectare in area, with a tree canopy density of more than 10%. (Such lands may or may not be statutorily notified as forest area).
+        <br><br>
+        <ul>
+        <li>Very Dense Forest: All lands, with a forest cover with canopy density of 70% and above
+        <li>Moderately Dense Forest: All lands, with a forest cover with canopy density of 40-70 %
+        <li>Open Forest: All lands, with forest cover with canopy density of 10 to 40%
+        <li>Mangrove Cover: Mangrove forest is salt tolerant forest ecosystem found mainly in tropical and sub-tropical coastal and/or inter-tidal regions. Mangrove cover is the area covered under mangrove vegetation as interpreted digitally from remote sensing data. It is a part of forest cover and also classified into three classes viz. very dense, moderately dense and open.
+        <li>Non Forest Land: defined as lands without any forest cover
+    <li>Scrub Cover: All lands, generally in and around forest areas, having bushes and or poor tree growth, chiefly small or stunted trees with canopy density less than 10%
+    </ul>
+"
+      )
+    )
     output$forest = renderPlot(
       ggplot(morph,aes(x=Year, y=value,fill=variable))+geom_bar(stat = 'identity')+
       labs( x = "Year", y = "Area covered (in sq mi)", title = "Change in forest covers")
     )
-    
-    output$compare = renderPlot(comp_plot+ylab("Year")+xlab("% Forest Cover"))
+    output$b_text = renderUI(
+      h5(
+        "Since 1991, India has reversed the deforestation trend. Specialists of the United Nations report India's forest as well as woodland cover has increased. A 2010 study by the Food and Agriculture Organisation ranks India amongst the 10 countries with the largest forest area coverage in the world."
+      )
+    )
+    output$compare = renderPlot(comp_plot+xlab("Year")+ylab("% Forest Cover"))
   }
  # forest=function(){}
 #  education=function(){}
