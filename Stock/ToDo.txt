@@ -1,0 +1,25 @@
+TO DO LIST
+-----------
+1. Choose 5 sectors of Indian government 
+  -In progress:
+   Education, IT& EXTC, Economy, Company, Forests
+  -Done
+2. Obtain the datasets from the data.gov.in
+  -In Progress
+  -Done
+3. Clean the data sets & analyze them in excel
+  -In Progress
+  -Found to be time consuming& unfruitful, hence unnecessary
+  -Aborted
+  -Doing the same thing in R
+  -In Progress
+    -Forest is done
+    -
+4. Build the UI
+  -In Progress
+5. Build the server
+  -In Progress
+6. Start integration 
+  -In Progress
+7. Test and Debug
+  -In Progress

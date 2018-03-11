@@ -1,0 +1,18 @@
+> ind = wld[104,-1]
+> bra = unlist(wld[27,-1])
+> chin = unlist(wld[38,-1])
+> con = unlist(wld[42,-1])
+> can = unlist(wld[33,-1])
+> us = unlist(wld[238,-1])
+> sud =unlist(wld[196,-1])
+> indo = unlist(wld[101,-1])
+> aus =unlist(wld[12,-1])
+> in = unlist(wld[104,-1])
+Error: unexpected 'in' in "in"
+> ind = unlist(wld[104,-1])
+> rus = unlist(wld[192,-1])
+
+
+ wfc = data.frame(Year=1990:2017,Sudan=sud,Australia=aus,China=chin,India=ind,US=us,Canada=can,Russia=rus,Brazil=bra,Indonesia=indo,Congo=con)
+ 
+ fill = fl))
