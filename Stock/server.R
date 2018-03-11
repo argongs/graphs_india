@@ -29,7 +29,7 @@ shinyServer(
   tfc.molten = melt(tfc, id.vars = 'Year')
   observeEvent(input$year,{
     toplot = tfc.molten[tfc.molten[,"Year"]==input$year,]
-    t10=ggplot(toplot, aes(x=variable, y=value))+geom_bar(stat = 'identity', colour = "green")
+    t10=ggplot(toplot, aes(x=variable, y=value))+geom_bar(stat = 'identity', fill = "darkgreen")+xlab("Countries")+ylab("%Forest Cover")+ggtitle("Top 10 Countries with the most forest cover")
     output$top10=renderPlot(t10)
     }
   )
