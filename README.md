@@ -1,9 +1,9 @@
 # mumbai_hackathon_115
 Mumbai Hackathon Work (Tead ID : 115)
 
-README
-#######
-Hello there developer!
+#README
+-----------
+Hello there, Developer!
 Thanks a lot for coming here!
 From here on to the end, this guide will show the way to run the files under this repository. So, buckle up!
 
@@ -13,6 +13,8 @@ Trees are integral part of the nature and one of the major components which allo
 Keeping this thought in mind, with the curiosity of exploring their status within the Indian subcontinent and it's standing
 in the world, based on the % of landmass covered by trees. Hence, to quell the curiosity, a research was performed by me and
 thus, by the means of the webapp is presented to you.
+
+Special Notice : Feel free to tinker with the project and the datasets as much as you like, and enjoy to your fullest!
 
 2. S/W Requirements 
 --------------------
