@@ -1,7 +1,5 @@
-# mumbai_hackathon_115
-Mumbai Hackathon Work (Tead ID : 115)
-
-#README
+README
++++++++++++
 -----------
 Hello there, Developer!
 Thanks a lot for coming here!
