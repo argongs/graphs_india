@@ -1,5 +1,4 @@
 README
-+++++++++++
 -----------
 Hello there, Developer!
 Thanks a lot for coming here!
