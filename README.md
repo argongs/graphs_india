@@ -1,6 +1,6 @@
 README
 -----------
-Hello there, Developer!
+Hello there, Reader!
 Thanks a lot for coming here!
 From here on to the end, this guide will show the way to run the files under this repository. So, buckle up!
 
